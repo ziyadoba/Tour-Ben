@@ -61,16 +61,17 @@
                         <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore
-                                    The World</h4>
-                                <h1 class="display-2 text-capitalize text-white mb-4">Let's The World Together!</h1>
-                                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s,
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explorez
+                                    le paysage</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Ensemble, construisons le Bénin !
+                                </h1>
+                                <p class="mb-5 fs-5">Découvrez Tour-Ben, votre passerelle vers les richesses
+                                    touristiques et culturelles du Bénin. En un clic, réservez des expériences
+                                    authentiques qui font rayonner notre patrimoine.
                                 </p>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                                        href="#">Discover Now</a>
+                                        href="#">Découvrez maintenant</a>
                                 </div>
                             </div>
                         </div>
@@ -79,17 +80,19 @@
                         <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore
-                                    The World</h4>
-                                <h1 class="display-2 text-capitalize text-white mb-4">Find Your Perfect Tour At Travel
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explorer
+                                    nos activités</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Trouvez votre circuit idéal chez
+                                    Tour-Ben
                                 </h1>
-                                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s,
+                                <p class="mb-5 fs-5">Découvrez une sélection de circuits sur-mesure pour tous les goûts
+                                    : patrimoine historique, escapades nature ou festivals culturels. Avec Tour-Ben,
+                                    planifiez simplement votre aventure et vivez des expériences inoubliables au cœur du
+                                    Bénin.
                                 </p>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                                        href="#">Discover Now</a>
+                                        href="#">Découvrez maintenant</a>
                                 </div>
                             </div>
                         </div>
@@ -98,16 +101,16 @@
                         <img src="img/carousel-3.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore
-                                    The World</h4>
-                                <h1 class="display-2 text-capitalize text-white mb-4">You Like To Go?</h1>
-                                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s,
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explorer
+                                    le monde</h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">Tu aimes y aller ?</h1>
+                                <p class="mb-5 fs-5">Vous aimez l’aventure ? Avec Tour-Ben, laissez-vous guider vers des
+                                    expériences qui vous correspondent et partagez votre passion pour le Bénin.
+                                    N’attendez plus, embarquez !
                                 </p>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                                        href="#">Discover Now</a>
+                                        href="#">Découvrez maintenant</a>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +134,7 @@
                 <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text"
                     placeholder="Eg: Thailand">
                 <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute me-2"
-                    style="top: 50%; right: 46px; transform: translateY(-50%);">Search</button>
+                    style="top: 50%; right: 46px; transform: translateY(-50%);">Recherche</button>
             </div>
         </div>
     </div>
