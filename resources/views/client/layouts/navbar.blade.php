@@ -35,13 +35,6 @@
             ])>
                 Packages
             </a>
-            <a href="{{ route('blog') }}" @class([
-                'nav-item',
-                'nav-link',
-                'active' => request()->routeIs('blog'),
-            ])>
-                Blog
-            </a>
 
             <div class="nav-item dropdown">
                 <a href="#" data-bs-toggle="dropdown" @class([
