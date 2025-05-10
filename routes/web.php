@@ -8,7 +8,6 @@ Route::get('/', function () {return view('client.pages.index');})->name('accueil
 Route::get('/a-propos', function(){ return view('client.pages.a-propos');})->name('a-propos');
 Route::get('/services', function () {return view('client.pages.services');})->name('services');
 Route::get('/packages', function () {return view('client.pages.packages');})->name('packages');
-Route::get('/blog', function () {return view('client.pages.blog');})->name('blog');
 
 Route::get('/destination', function () {return view('client.pages.destination');})->name('destination');
 Route::get('/tour', function () {return view('client.pages.tours');})->name('tour');
