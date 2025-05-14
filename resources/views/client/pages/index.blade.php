@@ -187,6 +187,8 @@
                         </a>
                     </li>
                 </ul>
+
+                {{-- Images des sites --}}
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
@@ -194,14 +196,16 @@
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="img/destination-1.jpg"
-                                                alt="">
+                                            <img class="img-fluid rounded w-100"
+                                                src="/img/sites/porte du non retour ouidah.jpg" alt=""
+                                                style="height: 250px; object-fit: cover;">
+
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
-                                                <h4 class="text-white mb-2 mt-3">New York City</h4>
-                                                <a href="#" class="btn-hover text-white">View All Place <i
+                                                <h4 class="text-white mb-2 mt-3">Ouidah</h4>
+                                                <a href="#" class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -212,14 +216,14 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="img/destination-2.jpg"
-                                                alt="">
+                                            <img class="img-fluid rounded w-100" src="/img/sites/palais royal porto nouvo.jpg"alt=""
+                                             style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
-                                                <h4 class="text-white mb-2 mt-3">Las vegas</h4>
-                                                <a href="#" class="btn-hover text-white">View All Place <i
+                                                <h4 class="text-white mb-2 mt-3">Porto-nouvo</h4>
+                                                <a href="#" class="btn-hover text-white">Reserver<i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -230,14 +234,14 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="img/destination-7.jpg"
-                                                alt="">
+                                            <img class="img-fluid rounded w-100" src="/img/sites/palais royeaux d'habomey.jpg"alt=""
+                                             style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
-                                                <h4 class="text-white mb-2 mt-3">Los angelas</h4>
-                                                <a href="#" class="btn-hover text-white">View All Place <i
+                                                <h4 class="text-white mb-2 mt-3">Abomey</h4>
+                                                <a href="#" class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -248,14 +252,14 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="img/destination-8.jpg"
-                                                alt="">
+                                            <img class="img-fluid rounded w-100" src="/img/sites/natitingou les tata soba.jpg"alt=""
+                                             style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
-                                                <h4 class="text-white mb-2 mt-3">Los angelas</h4>
-                                                <a href="#" class="btn-hover text-white">View All Place <i
+                                                <h4 class="text-white mb-2 mt-3">Natitingou</h4>
+                                                <a href="#" class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -268,14 +272,14 @@
                             </div>
                             <div class="col-xl-4">
                                 <div class="destination-img h-100">
-                                    <img class="img-fluid rounded w-100 h-100" src="img/destination-9.jpg"
+                                    <img class="img-fluid rounded w-100 h-100" src="/img/sites/monument des amazone.jpg"
                                         style="object-fit: cover; min-height: 300px;" alt="">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Cotonou</h4>
+                                        <a href="#" class="btn-hover text-white">reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -286,13 +290,14 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-4.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/Parc natianal pendjari.jpg" alt=""
+                                       style="object-fit: cover; min-height: 300px;">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">Los angelas</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Tanguieta</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -303,13 +308,14 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/la chutes de tanougou.jpg" alt=""
+                                     style="object-fit: cover; min-height: 300px;">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">Los angelas</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Atacora</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -320,13 +326,14 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/temples des pyton ouidah.jpg" alt=""
+                                     style="object-fit: cover; min-height: 300px;">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">Los angelas</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Ouidah</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -725,8 +732,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-10.jpg" class="img-fluid w-100 h-100 rounded"
-                                    alt="Image">
+                                <img src="img/gallery-10.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -969,8 +975,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message"
-                                        style="height: 100px"></textarea>
+                                    <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message" style="height: 100px"></textarea>
                                     <label for="message">Special Request</label>
                                 </div>
                             </div>
