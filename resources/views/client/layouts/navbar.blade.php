@@ -21,19 +21,12 @@
             ])>
                 A propos
             </a>
-            <a href="{{ route('services') }}" @class([
+            <a href="{{ route('evenements') }}" @class([
                 'nav-item',
                 'nav-link',
-                'active' => request()->routeIs('services'),
+                'active' => request()->routeIs('evenements'),
             ])>
-                Services
-            </a>
-            <a href="{{ route('packages') }}" @class([
-                'nav-item',
-                'nav-link',
-                'active' => request()->routeIs('packages'),
-            ])>
-                Packages
+                Evènements
             </a>
 
             <div class="nav-item dropdown">
