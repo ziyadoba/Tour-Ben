@@ -41,12 +41,12 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    @include('client.layouts.topbar');
+    @include('client.layouts.topbar')
     <!-- Topbar End -->
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-        @include('client.layouts.navbar');
+        @include('client.layouts.navbar')
     </div>
     <!-- Navbar & Hero End -->
 
@@ -260,7 +260,7 @@
     <!-- Subscribe End -->
 
     <!-- Footer Start -->
-    @include('client.layouts.footer');
+    @include('client.layouts.footer')
     <!-- Footer End -->
 
     <!-- JavaScript Libraries -->

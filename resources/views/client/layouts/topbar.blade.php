@@ -48,7 +48,7 @@
                         <input type="password" class="form-control" id="motdepasse" placeholder="Votre mot de passe"
                             required>
                     </div>
-                    <button type="submit" class="btn btn-secondary rounded-pill text-white w-100">Se connecter</button>
+                    <button type="submit" class="btn btn-secondary text-white w-100">Se connecter</button>
                 </form>
                 <div class="mt-3 text-center">
                     <small>Pas encore de compte ?
@@ -96,8 +96,10 @@
                                 placeholder="Confirmez le mot de passe" required>
                             <label for="motdepasseconfirmer">Confirmation mot de passe</label>
                         </div>
+
                         <div class="col-12">
-                            <button type="submit" class="btn btn-secondary w-100 py-2">Créer mon compte</button>
+                            <button class="btn btn-secondary w-100 py-3" type="submit">S'inscrire</button>
+
                         </div>
                     </div>
                 </form>
