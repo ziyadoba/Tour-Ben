@@ -30,7 +30,7 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-    <a href="{{ route('accueil') }}" class="navbar-brand p-0">
+    <a href="{{ route('accueilClient') }}" class="navbar-brand p-0">
         <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Tour-Ben</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -38,10 +38,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="{{ route('accueil') }}" @class([
+            <a href="{{ route('accueilClient') }}" @class([
                 'nav-item',
                 'nav-link',
-                'active' => request()->routeIs('accueil'),
+                'active' => request()->routeIs('accueilClient'),
             ])>
                 Accueil
             </a>

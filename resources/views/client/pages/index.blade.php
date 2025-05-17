@@ -195,9 +195,11 @@
                             <div class="col-xl-8">
                                 <div class="row g-4">
                                     <div class="col-lg-6">
+                                        {{-- Ouidah --}}
                                         <div class="destination-img">
                                             <img class="img-fluid rounded w-100"
-                                                src="/img/sites/image/2825d321-d11b-5a02-8a46-be1a840dd9ff.jpg" alt=""
+                                                src="/img/sites/porte_du_non_retour.jpg"
+                                                alt="La porte du non retour de Ouidah"
                                                 style="height: 250px; object-fit: cover;">
 
                                             <div class="destination-overlay p-4">
@@ -214,15 +216,16 @@
                                             </div>
                                         </div>
                                     </div>
+                                    {{-- Ouidah --}}
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="/img/sites/image/mosque_porto.jpg"alt=""
-                                             style="height: 250px; object-fit: cover";>
+                                            <img class="img-fluid rounded w-100" src="/img/sites/memoire.png"alt=""
+                                                style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
-                                                <h4 class="text-white mb-2 mt-3">Porto-nouvo</h4>
+                                                <h4 class="text-white mb-2 mt-3">Ouidah</h4>
                                                 <a href="#" class="btn-hover text-white">Reserver<i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
@@ -232,10 +235,12 @@
                                             </div>
                                         </div>
                                     </div>
+                                    {{-- Abomey --}}
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="/img/sites/palais royeaux d'habomey.jpg"alt=""
-                                             style="height: 250px; object-fit: cover";>
+                                            <img class="img-fluid rounded w-100"
+                                                src="/img/sites/palais_royal_abomey.jpg" alt="Palais royal d'Abomey"
+                                                style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
@@ -250,10 +255,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    {{-- Natitingou --}}
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="/img/sites/natitingou les tata soba.jpg"alt=""
-                                             style="height: 250px; object-fit: cover";>
+                                            <img class="img-fluid rounded w-100" src="/img/sites/tata_somba.jpg"
+                                                alt="Tata Somba" style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
@@ -270,10 +276,12 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Cotonou --}}
                             <div class="col-xl-4">
                                 <div class="destination-img h-100">
-                                    <img class="img-fluid rounded w-100 h-100" src="/img/sites/monument des amazone.jpg"
-                                        style="object-fit: cover; min-height: 300px;" alt="">
+                                    <img class="img-fluid rounded w-100 h-100" src="/img/sites/amazone.jpg"
+                                        aria-label="La place Amazone" style="height: 250px; object-fit: cover";
+                                        alt="">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
@@ -288,15 +296,17 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Dassa-Zoume --}}
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="/img/sites/Parc natianal pendjari.jpg" alt=""
-                                       style="object-fit: cover; min-height: 300px;">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/grotte.jpg"
+                                        alt="Les grottes trouées aux pieds humains"
+                                        style="height: 250px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">Tanguieta</h4>
+                                        <h4 class="text-white mb-2 mt-3">Dassa-Zoume</h4>
                                         <a href="#" class="btn-hover text-white">Reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
@@ -306,10 +316,11 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Atacora --}}
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="/img/sites/la chutes de tanougou.jpg" alt=""
-                                     style="object-fit: cover; min-height: 300px;">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/cite_des_tata.jpeg"
+                                        alt="Cité des tatas" style="height: 250px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
@@ -324,10 +335,12 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Ouidah --}}
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="/img/sites/temples des pyton ouidah.jpg" alt=""
-                                     style="object-fit: cover; min-height: 300px;">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/temples_python.jpg"
+                                        alt="Le temple desd pythons de Ouidah"
+                                        style="height: 250px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
                                         <a href="#"
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
@@ -344,34 +357,31 @@
                             </div>
                         </div>
                     </div>
+                    {{-- Tri section Abomey --}}
                     <div id="tab-2" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/palais_royal_abomey.jpg"
+                                        alt="Palais royal d'Abomey" style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">n</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Palais royal</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver<i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
-                                        <a href="img/destination-5.jpg" data-lightbox="destination-5"><i
+                                        <a href="/img/sites/palais_royal_abomey.jpg" data-lightbox="destination-5"><i
                                                 class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/behanzin.jpg"
+                                        alt="Le rois Behanzin" style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Le roi Behanzin</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver<i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -382,34 +392,32 @@
                             </div>
                         </div>
                     </div>
+                    {{-- Tri section Ouidah --}}
                     <div id="tab-3" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/memoire.png" alt=""
+                                        style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Mémorial du Jubilé de l'An 2000</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
-                                        <a href="img/destination-5.jpg" data-lightbox="destination-5"><i
+                                        <a href="/img/sites/memoire.png" data-lightbox="destination-5"><i
                                                 class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
                                     </div>
                                 </div>
                             </div>
+                            {{-- Tri section Ouidah la porte du non retour --}}
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/porte_du_non_retour.jpg"
+                                        alt="" style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">La porte du non retour</h4>
+                                        <a href="#" class="btn-hover text-white">Reserver<i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -420,38 +428,36 @@
                             </div>
                         </div>
                     </div>
+                    {{-- Tri section Porto-Novo --}}
                     <div id="tab-4" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/mosquee_porto.jpg"
+                                        alt="La mosquee historique de Porto-Novo"
+                                        style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3"> Mosquee historique de Porto-Novo</h4>
+                                        <a href="#" class="btn-hover text-white">reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
-                                        <a href="img/destination-5.jpg" data-lightbox="destination-5"><i
+                                        <a href="/img/sites/mosquee_porto.jpg" data-lightbox="destination-5"><i
                                                 class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/Temple_du_monstre_à_9_têtes_au_quartier_Bèsan_à_Porto-novo_Bénin.jpg" alt=""
+                                        style="height: 450px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
-                                        <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                        <h4 class="text-white mb-2 mt-3">Temple du monstre à 9 têtes au quartier Bèsan à Porto-novo</h4>
+                                        <a href="#" class="btn-hover text-white">reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
-                                        <a href="img/destination-6.jpg" data-lightbox="destination-6"><i
+                                        <a href="Temple_du_monstre_à_9_têtes_au_quartier_Bèsan_à_Porto-novo_Bénin" data-lightbox="destination-6"><i
                                                 class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
                                     </div>
                                 </div>
@@ -990,7 +996,7 @@
         </div>
     </div>
     <!-- Tour Booking End -->
-     <!-- About Start -->
+    <!-- About Start -->
     <div class="container-fluid about py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">

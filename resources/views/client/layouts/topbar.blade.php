@@ -52,7 +52,13 @@
                         <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> Mon Profil</a>
                         <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
                         <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Paramètres</a>
-                        <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Deconnection</a>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit" class="dropdown-item">
+                                <i class="fas fa-power-off me-2"></i> Déconnexion
+                            </button>
+                        </form>
+
                     </div>
                 </div>
             </div>
