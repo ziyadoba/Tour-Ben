@@ -197,7 +197,7 @@
                                     <div class="col-lg-6">
                                         <div class="destination-img">
                                             <img class="img-fluid rounded w-100"
-                                                src="/img/sites/porte du non retour ouidah.jpg" alt=""
+                                                src="/img/sites/image/2825d321-d11b-5a02-8a46-be1a840dd9ff.jpg" alt=""
                                                 style="height: 250px; object-fit: cover;">
 
                                             <div class="destination-overlay p-4">
@@ -216,7 +216,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="destination-img">
-                                            <img class="img-fluid rounded w-100" src="/img/sites/palais royal porto nouvo.jpg"alt=""
+                                            <img class="img-fluid rounded w-100" src="/img/sites/image/mosque_porto.jpg"alt=""
                                              style="height: 250px; object-fit: cover";>
                                             <div class="destination-overlay p-4">
                                                 <a href="#"
@@ -990,6 +990,72 @@
         </div>
     </div>
     <!-- Tour Booking End -->
+     <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="h-150"
+                        style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
+                        <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7"
+                    style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
+                    <h5 class="section-about-title pe-3">A propos de nous</h5>
+                    <h1 class="mb-4">Bienvenue sur <span class="text-primary">TourBen, </span></h1>
+                    <p class="mb-4">votre nouvelle passerelle vers la découverte et la culture. Nous avons imaginé
+                        et développé une solution intuitive qui simplifie la réservation de visites de sites
+                        touristiques et l’inscription à des événements culturels, pour que chaque expérience devienne un
+                        souvenir inoubliable. </p>
+                    <h2 class="text-primary">Notre mission</h2>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Accessibilité :
+                                offrir une interface claire et conviviale, accessible à tous les voyageurs, qu’ils
+                                soient novices ou passionnés d’aventure.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Diversité : proposer
+                                un large éventail de destinations — monuments historiques, parcs naturels, musées, ainsi
+                                que festivals, expositions et spectacles vivants.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Personnalisation :
+                                permettre à chacun de composer son parcours selon ses envies (visites guidées, visites
+                                libres, ateliers thématiques…) et de recevoir des recommandations sur mesure
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Nous mettons un point
+                                d'honneur à rendre notre plateforme accessible 24h/24 et 7j/7, afin que vous puissiez
+                                planifier vos visites et événements à tout moment, où que vous soyez
+                            </p>
+                        </div>
+                    </div>
+                    <h2 class="text-primary">Pourquoi nous choisir ?</h2>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Fiabilité : des
+                                partenariats exclusifs avec des acteurs locaux pour garantir des informations à jour et
+                                des prestations de qualité.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Sécurité : paiement
+                                en ligne sécurisé et support client à l’écoute avant, pendant et après votre
+                                expérience..</p>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Visiter les sites
+                        touristiques et évènements</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
     <!-- Travel Guide Start -->
     <div class="container-fluid guide py-5">
@@ -1104,210 +1170,7 @@
     </div>
     <!-- Travel Guide End -->
 
-    <!-- Blog Start -->
-    <div class="container-fluid blog py-5">
-        <div class="container py-5">
-            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                <h5 class="section-title px-3">Our Blog</h5>
-                <h1 class="mb-4">Popular Travel Blogs</h1>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt tenetur
-                    sapiente atque. Magni non explicabo beatae sit, vel reiciendis consectetur numquam id similique sunt
-                    error obcaecati ducimus officia maiores.
-                </p>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <div class="blog-img-inner">
-                                <img class="img-fluid w-100 rounded-top" src="img/blog-1.jpg" alt="Image">
-                                <div class="blog-icon">
-                                    <a href="#" class="my-auto"><i
-                                            class="fas fa-link fa-2x text-white"></i></a>
-                                </div>
-                            </div>
-                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                <small class="flex-fill text-center border-end py-2"><i
-                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                <a href="#"
-                                    class="btn-hover flex-fill text-center text-white border-end py-2"><i
-                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
-                                        class="fa fa-comments text-primary me-2"></i>1K</a>
-                            </div>
-                        </div>
-                        <div class="blog-content border border-top-0 rounded-bottom p-4">
-                            <p class="mb-3">Posted By: Royal Hamblin </p>
-                            <a href="#" class="h4">Adventures Trip</a>
-                            <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                                diam eos</p>
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <div class="blog-img-inner">
-                                <img class="img-fluid w-100 rounded-top" src="img/blog-2.jpg" alt="Image">
-                                <div class="blog-icon">
-                                    <a href="#" class="my-auto"><i
-                                            class="fas fa-link fa-2x text-white"></i></a>
-                                </div>
-                            </div>
-                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                <small class="flex-fill text-center border-end py-2"><i
-                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                <a href="#"
-                                    class="btn-hover flex-fill text-center text-white border-end py-2"><i
-                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
-                                        class="fa fa-comments text-primary me-2"></i>1K</a>
-                            </div>
-                        </div>
-                        <div class="blog-content border border-top-0 rounded-bottom p-4">
-                            <p class="mb-3">Posted By: Royal Hamblin </p>
-                            <a href="#" class="h4">Adventures Trip</a>
-                            <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                                diam eos</p>
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <div class="blog-img-inner">
-                                <img class="img-fluid w-100 rounded-top" src="img/blog-3.jpg" alt="Image">
-                                <div class="blog-icon">
-                                    <a href="#" class="my-auto"><i
-                                            class="fas fa-link fa-2x text-white"></i></a>
-                                </div>
-                            </div>
-                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                <small class="flex-fill text-center border-end py-2"><i
-                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                <a href="#"
-                                    class="btn-hover flex-fill text-center text-white border-end py-2"><i
-                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
-                                        class="fa fa-comments text-primary me-2"></i>1K</a>
-                            </div>
-                        </div>
-                        <div class="blog-content border border-top-0 rounded-bottom p-4">
-                            <p class="mb-3">Posted By: Royal Hamblin </p>
-                            <a href="#" class="h4">Adventures Trip</a>
-                            <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                                diam eos</p>
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5">
-        <div class="container py-5">
-            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                <h5 class="section-title px-3">Testimonial</h5>
-                <h1 class="mb-0">Our Clients Say!!!</h1>
-            </div>
-            <div class="testimonial-carousel owl-carousel">
-                <div class="testimonial-item text-center rounded pb-4">
-                    <div class="testimonial-comment bg-light rounded p-4">
-                        <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-                            nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi
-                            porro officiis. Vero reiciendis,
-                        </p>
-                    </div>
-                    <div class="testimonial-img p-1">
-                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" alt="Image">
-                    </div>
-                    <div style="margin-top: -35px;">
-                        <h5 class="mb-0">John Abraham</h5>
-                        <p class="mb-0">New York, USA</p>
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center rounded pb-4">
-                    <div class="testimonial-comment bg-light rounded p-4">
-                        <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-                            nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi
-                            porro officiis. Vero reiciendis,
-                        </p>
-                    </div>
-                    <div class="testimonial-img p-1">
-                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" alt="Image">
-                    </div>
-                    <div style="margin-top: -35px;">
-                        <h5 class="mb-0">John Abraham</h5>
-                        <p class="mb-0">New York, USA</p>
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center rounded pb-4">
-                    <div class="testimonial-comment bg-light rounded p-4">
-                        <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-                            nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi
-                            porro officiis. Vero reiciendis,
-                        </p>
-                    </div>
-                    <div class="testimonial-img p-1">
-                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" alt="Image">
-                    </div>
-                    <div style="margin-top: -35px;">
-                        <h5 class="mb-0">John Abraham</h5>
-                        <p class="mb-0">New York, USA</p>
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center rounded pb-4">
-                    <div class="testimonial-comment bg-light rounded p-4">
-                        <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-                            nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi
-                            porro officiis. Vero reiciendis,
-                        </p>
-                    </div>
-                    <div class="testimonial-img p-1">
-                        <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle" alt="Image">
-                    </div>
-                    <div style="margin-top: -35px;">
-                        <h5 class="mb-0">John Abraham</h5>
-                        <p class="mb-0">New York, USA</p>
-                        <div class="d-flex justify-content-center">
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                            <i class="fas fa-star text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
     <!-- Subscribe Start -->
     <div class="container-fluid subscribe py-5">

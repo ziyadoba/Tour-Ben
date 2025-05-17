@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 // Route côté client
 
 Route::get('/', function () {return view('client.pages.index');})->name('accueil');
-Route::get('/a-propos', function(){ return view('client.pages.a-propos');})->name('a-propos');
+Route::get('/site_touristique', function(){ return view('client.pages.site_touristique');})->name('site_touristique');
 Route::get('/services', function () {return view('client.pages.services');})->name('services');
 Route::get('/evenements', function () {return view('client.pages.evenements');})->name('evenements');
 

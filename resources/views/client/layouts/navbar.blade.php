@@ -45,12 +45,12 @@
             ])>
                 Accueil
             </a>
-            <a href="{{ route('a-propos') }}" @class([
+            <a href="{{ route('site_touristique') }}" @class([
                 'nav-item',
                 'nav-link',
-                'active' => request()->routeIs('a-propos'),
+                'active' => request()->routeIs('site_touristique'),
             ])>
-                A propos
+                Site touristique
             </a>
             <a href="{{ route('evenements') }}" @class([
                 'nav-item',
