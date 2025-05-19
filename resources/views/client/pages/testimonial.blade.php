@@ -168,7 +168,7 @@
                 <h1 class="text-white mb-4">Our Newsletter</h1>
                 <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore
                     nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita
-                    laudantium fugiat corrupti eum cum repellat a laborum quasi.
+                    laudantium fugiat corrupti eum cum repellat a laborum quasi. ok 
                 </p>
                 <div class="position-relative mx-auto">
                     <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text"
