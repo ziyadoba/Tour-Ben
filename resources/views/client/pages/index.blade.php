@@ -279,7 +279,7 @@
                             {{-- Cotonou --}}
                             <div class="col-xl-4">
                                 <div class="destination-img h-100">
-                                    <img class="img-fluid rounded w-100 h-100" src="/img/sites/amazone.jpg"
+                                    <img class="img-fluid rounded w-100 h-100" src="/img/sites/monument_amazone.jpg"
                                         aria-label="La place Amazone" style="height: 250px; object-fit: cover";
                                         alt="">
                                     <div class="destination-overlay p-4">
@@ -338,7 +338,7 @@
                             {{-- Ouidah --}}
                             <div class="col-lg-4">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="/img/sites/temples_python.jpg"
+                                    <img class="img-fluid rounded w-100" src="/img/sites/temples des pyton ouidah.jpg"
                                         alt="Le temple desd pythons de Ouidah"
                                         style="height: 250px; object-fit: cover";>
                                     <div class="destination-overlay p-4">
@@ -464,17 +464,20 @@
                             </div>
                         </div>
                     </div>
+                    {{-- Tri section natitingou --}}
                     <div id="tab-5" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" 
+                                    src="/img/sites/tata_somba.jpg" 
+                                    alt="sites historique des tata soba"
+                                    style="height: 450px; object-fit: cover">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">Mémorial du Jubilé de l'An 2000</a>
+                                        <h4 class="text-white mb-2 mt-3">Reserver</h4>
+                                        <a href="#" class="btn-hover text-white"> <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -485,13 +488,15 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" 
+                                    src="/img/sites/natitingou.jpg" 
+                                    alt=""
+                                    style="height: 450px; object-fit: cover">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                            class="btn btn-primary text-white rounded-pill border py-2 px-3"></a>
+                                        <h4 class="text-white mb-2 mt-3"><Nav>Natitingou</Nav></h4>
+                                        <a href="#" class="btn-hover text-white"> statue dorée de Bio Guerra <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -502,17 +507,18 @@
                             </div>
                         </div>
                     </div>
+                    {{-- Tri section dassa zoume --}}
                     <div id="tab-6" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/grotte.jpg" alt="grottes de dassa"
+                                    style="height: 450px; object-fit: cover">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                            class="btn btn-primary text-white rounded-pill border py-2 px-3"></a>
+                                        <h4 class="text-white mb-2 mt-3">Grottes de Dassa</h4>
+                                        <a href="#" class="btn-hover text-white"><i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -523,13 +529,13 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="destination-img">
-                                    <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                    <img class="img-fluid rounded w-100" src="/img/sites/colline_dassa.jpg" alt="colines de dassa"
+                                    style="height: 450px; object-fit: cover">
                                     <div class="destination-overlay p-4">
                                         <a href="#"
-                                            class="btn btn-primary text-white rounded-pill border py-2 px-3">20
-                                            Photos</a>
-                                        <h4 class="text-white mb-2 mt-3">San francisco</h4>
-                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                            class="btn btn-primary text-white rounded-pill border py-2 px-3"></a>
+                                        <h4 class="text-white mb-2 mt-3">Dassa </h4>
+                                        <a href="#" class="btn-hover text-white">Colline de dassa  <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -550,10 +556,9 @@
     <div class="container-fluid galler my-5">
         <div class="mx-auto text-center mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Rendez‑vous culturel</h5>
-            <h1 class="mb-4">Tourism & Traveling Gallery.</h1>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto
-                doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti
-                eum cum repellat a laborum quasi.
+            <h1 class="mb-4">Évènements et Sites Touristiques</h1>
+            <p class="mb-0">Découvrez les plus beaux sites touristiques et les évènements culturels incontournables. Explorez, planifiez et vivez des expériences uniques à travers le monde.
+
             </p>
         </div>
         <div class="tab-class text-center">
@@ -561,31 +566,31 @@
                 <li class="nav-item">
                     <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
                         data-bs-toggle="pill" href="#GalleryTab-1">
-                        <span class="text-dark" style="width: 150px;">All</span>
+                        <span class="text-dark" style="width: 150px;">Tous</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
                         href="#GalleryTab-2">
-                        <span class="text-dark" style="width: 150px;">World tour</span>
+                        <span class="text-dark" style="width: 150px;">Sites historiques</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
                         href="#GalleryTab-3">
-                        <span class="text-dark" style="width: 150px;">Ocean Tour</span>
+                        <span class="text-dark" style="width: 150px;">Monuments naturels</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
                         href="#GalleryTab-4">
-                        <span class="text-dark" style="width: 150px;">Summer Tour</span>
+                        <span class="text-dark" style="width: 150px;">Festivals et concerts</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
                         href="#GalleryTab-5">
-                        <span class="text-dark" style="width: 150px;">Sport Tour</span>
+                        <span class="text-dark" style="width: 150px;">Expositions musées</span>
                     </a>
                 </li>
             </ul>
@@ -594,7 +599,7 @@
                     <div class="row g-2">
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-1.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/sites/porte_du_non_retour.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -610,7 +615,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/evenement/évènement1.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -626,7 +631,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/sites/monument_amazone.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -642,7 +647,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-4.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/evenement/évènement2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -658,7 +663,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-5.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/sites/temples des pyton ouidah.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -674,7 +679,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-6.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/evenement/évènement3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -690,7 +695,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-7.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/sites/memoire.png" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -706,7 +711,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-8.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/evenement/évènement4.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -722,7 +727,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-9.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/sites/behanzin.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -738,7 +743,7 @@
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
                             <div class="gallery-item h-100">
-                                <img src="img/gallery-10.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <img src="/img/evenement/évènement5.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
                                 <div class="gallery-content">
                                     <div class="gallery-info">
                                         <h5 class="text-white text-uppercase mb-2">World Tour</h5>
@@ -908,36 +913,28 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <h5 class="section-booking-title pe-3">Booking</h5>
-                    <h1 class="text-white mb-4">Online Booking</h1>
-                    <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-                        maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus
-                        praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.
-                    </p>
-                    <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-                        maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus
-                        praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.
-                    </p>
-                    <a href="#" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">Read More</a>
+                    <h5 class="section-booking-title pe-3">Réservation en ligne</h5>
+                    <h1 class="text-white mb-4">Réservation en ligne</h1>
+                    <p class="text-white mb-4">Réservez facilement votre place pour les évènements culturels et les visites de sites touristiques les plus populaires. Concerts, festivals, musées, monuments... tout est ici.</p>
+                    <a href="#" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">Voir plus</a>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="text-white mb-3">Book A Tour Deals</h1>
-                    <p class="text-white mb-4">Get <span class="text-warning">50% Off</span> On Your First Adventure
-                        Trip With Travela. Get More Deal Offers Here.</p>
+                    <h1 class="text-white mb-3">Réservez un évènement ou un site touristique</h1>
+                    <p class="text-white mb-4"> <span class="text-warning"></span> 🎉 Première réservation ? Obtenez jusqu’à 50% de réduction sur les évènements et sites touristiques !</p>
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control bg-white border-0" id="name"
-                                        placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                        placeholder="Nom complet">
+                                    <label for="name">Nom complet</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="email" class="form-control bg-white border-0" id="email"
-                                        placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                        placeholder="Adresse e-mail">
+                                    <label for="email">Adresse e-mail</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -945,7 +942,7 @@
                                     <input type="text" class="form-control bg-white border-0" id="datetime"
                                         placeholder="Date & Time" data-target="#date3"
                                         data-toggle="datetimepicker" />
-                                    <label for="datetime">Date & Time</label>
+                                    <label for="datetime">	Date de l’évènement</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -955,17 +952,19 @@
                                         <option value="2">Destination 2</option>
                                         <option value="3">Destination 3</option>
                                     </select>
-                                    <label for="select1">Destination</label>
+                                    <label for="select1">Lieu ou site</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <select class="form-select bg-white border-0" id="SelectPerson">
-                                        <option value="1">Persons 1</option>
-                                        <option value="2">Persons 2</option>
-                                        <option value="3">Persons 3</option>
+                                        <option value="1">Personne 1</option>
+                                        <option value="2">Personne 2</option>
+                                        <option value="3">Personne 3</option>
+                                        <option value="4">Personne 4</option>
+                                        <option value="5">Personne 5</option>
                                     </select>
-                                    <label for="SelectPerson">Persons</label>
+                                    <label for="SelectPerson">Nombre de personnes</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -976,18 +975,17 @@
                                         <option value="3">2</option>
                                         <option value="3">3</option>
                                     </select>
-                                    <label for="CategoriesSelect">Categories</label>
+                                    <label for="CategoriesSelect">Type d’évènement</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Special Request</label>
+                                    <textarea class="form-control bg-white border-0" placeholder="Message ou besoin spécifique" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message ou besoin spécifique</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary text-white w-100 py-3" type="submit">Book
-                                    Now</button>
+                                <button class="btn btn-primary text-white w-100 py-3" type="submit">Réserver maintenant</button>
                             </div>
                         </div>
                     </form>
