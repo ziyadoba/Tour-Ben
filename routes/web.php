@@ -40,4 +40,8 @@ require __DIR__.'/auth.php';
 
 // admin route 
 
-Route::get('/log-admin', [AdminController::class, 'adminDashboar'])->name('admin.dashboard');
+Route::get('/log-admin', [AdminController::class, 'adminDashboard'])->name('admin.dashboard');
+Route::get('/log-admin/organisateur', [AdminController::class, 'adminOrganisateur'])->name('admin.organisateur');
+Route::get('/log-admin/evenement', [AdminController::class, 'adminEvenement'])->name('admin.evenement');
+Route::get('/log-admin/site-touristique', [AdminController::class, 'adminSite'])->name('admin.site');
+Route::get('/log-admin/reservation', [AdminController::class, 'adminReservation'])->name('admin.reservation');
