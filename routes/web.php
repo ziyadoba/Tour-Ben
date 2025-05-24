@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 // Route côté client
@@ -34,3 +35,9 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+
+// admin route 
+
+Route::get('/log-admin', [AdminController::class, 'adminDashboar'])->name('admin.dashboard');
