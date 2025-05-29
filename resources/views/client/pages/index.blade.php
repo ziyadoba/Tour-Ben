@@ -130,7 +130,7 @@
     </div>
     <div class="container-fluid search-bar position-relative" style="top: -50%; transform: translateY(-50%);">
         <div class="container">
-            <div class="position-relative rounded-pill w-100 mx-auto p-5" style="background: rgba(19, 53, 123, 0.8);">
+            <div class="position-relative rounded-pill w-100 mx-auto p-4" style="background: rgba(19, 53, 123, 0.8);">
                 <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text"
                     placeholder="Recherche...">
                 <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute me-2"
@@ -152,7 +152,7 @@
                 <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
                     <li class="nav-item">
                         <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
-                       href="{{Route('site_touristique')}}">
+                            href="{{ Route('site_touristique') }}">
                             <span class="text-dark" style="width: 150px;">Tous voir</span>
                         </a>
                     </li>
@@ -177,7 +177,8 @@
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
                                                 <h4 class="text-white mb-2 mt-3">Ouidah</h4>
-                                                <a href="{{Route('site.detail')}}" class="btn-hover text-white">Reserver <i
+                                                <a href="{{ Route('site.detail') }}"
+                                                    class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -196,7 +197,8 @@
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
                                                 <h4 class="text-white mb-2 mt-3">Ouidah</h4>
-                                                <a href="{{Route('site.detail')}}" class="btn-hover text-white">Reserver<i
+                                                <a href="{{ Route('site.detail') }}"
+                                                    class="btn-hover text-white">Reserver<i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -216,7 +218,8 @@
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
                                                 <h4 class="text-white mb-2 mt-3">Abomey</h4>
-                                                <a href="{{Route('site.detail')}}" class="btn-hover text-white">Reserver <i
+                                                <a href="{{ Route('site.detail') }}"
+                                                    class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -235,7 +238,8 @@
                                                     class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                                     Photos</a>
                                                 <h4 class="text-white mb-2 mt-3">Natitingou</h4>
-                                                <a href="{{Route('site.detail')}}" class="btn-hover text-white">Reserver <i
+                                                <a href="{{ Route('site.detail') }}"
+                                                    class="btn-hover text-white">Reserver <i
                                                         class="fa fa-arrow-right ms-2"></i></a>
                                             </div>
                                             <div class="search-icon">
@@ -257,7 +261,7 @@
                                             class="btn btn-primary text-white rounded-pill border py-2 px-3">20
                                             Photos</a>
                                         <h4 class="text-white mb-2 mt-3">Cotonou</h4>
-                                        <a href="{{Route('site.detail')}}" class="btn-hover text-white">reserver <i
+                                        <a href="{{ Route('site.detail') }}" class="btn-hover text-white">reserver <i
                                                 class="fa fa-arrow-right ms-2"></i></a>
                                     </div>
                                     <div class="search-icon">
@@ -374,7 +378,7 @@
                             </div>
                             <div class="row bg-primary rounded-bottom mx-0 mt-auto">
                                 <div class="col-6 text-start px-0">
-                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                    <a href="#tabs-1" class="btn-hover btn text-white py-2 px-4">voir plus</a>
                                 </div>
                                 <div class="col-6 text-end px-0">
                                     <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
@@ -441,23 +445,16 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <select class="form-select bg-white border-0" id="SelectPerson">
-                                        <option value="1">Personne 1</option>
-                                        <option value="2">Personne 2</option>
-                                        <option value="3">Personne 3</option>
-                                        <option value="4">Personne 4</option>
-                                        <option value="5">Personne 5</option>
-                                    </select>
-                                    <label for="SelectPerson">Nombre de personnes</label>
+                                    <input type="number" class="form-control bg-white border-0" id="email"
+                                        placeholder="Nombre de personne">
+                                    <label for="email">Nombre de personne</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <select class="form-select bg-white border-0" id="CategoriesSelect">
-                                        <option value="1">Kids</option>
-                                        <option value="2">1</option>
-                                        <option value="3">2</option>
-                                        <option value="3">3</option>
+                                        <option value="1">Site touristique</option>
+                                        <option value="2">Showbiz</option>
                                     </select>
                                     <label for="CategoriesSelect">Type d’évènement</label>
                                 </div>
@@ -561,106 +558,117 @@
     <div class="container-fluid guide py-5">
         <div class="container py-5">
             <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                <h5 class="section-title px-3">Travel Guide</h5>
-                <h1 class="mb-0">Meet Our Guide</h1>
+                <h5 class="section-title px-3">Guide de voyage</h5>
+                <h1 class="mb-0">Rencontrez nos guideur</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="guide-item">
                         <div class="guide-img">
-                            <div class="guide-img-efects">
-                                <img src="img/guide-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="guide-img-efects ratio ratio-1x1">
+                                <img src="img/guideur/Kader_Amporio.jpg"
+                                    class="img-fluid rounded-top object-fit-contain" alt="Kader Amporio">
                             </div>
                             <div class="guide-icon rounded-pill p-2">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flamaisondubenin.com%2Fkader-amporio-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://x.com/intent/tweet?url=https%3A%2F%2Flamaisondubenin.com%2Fkader-amporio-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Flamaisondubenin.com%252Fkader-amporio-portrait-dun-guide-du-benin%252F"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="guide-title text-center rounded-bottom p-4">
                             <div class="guide-title-inner">
-                                <h4 class="mt-3">Full Name</h4>
-                                <p class="mb-0">Designation</p>
+                                <h4 class="mt-3">Kader Amporio</h4>
+                                <p class="mb-0">Guide Touristique au Bénin</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="guide-item">
                         <div class="guide-img">
-                            <div class="guide-img-efects">
-                                <img src="img/guide-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="guide-img-efects ratio ratio-1x1">
+                                <img src="img/guideur/Florent_DOKO.jpg"
+                                    class="img-fluid rounded-top object-fit-contain" alt="Florent DOKO">
                             </div>
                             <div class="guide-icon rounded-pill p-2">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flamaisondubenin.com%2Fflorent-doko-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://x.com/intent/tweet?url=https%3A%2F%2Flamaisondubenin.com%2Fflorent-doko-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Flamaisondubenin.com%252Fflorent-doko-portrait-dun-guide-du-benin%252F"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="guide-title text-center rounded-bottom p-4">
                             <div class="guide-title-inner">
-                                <h4 class="mt-3">Full Name</h4>
-                                <p class="mb-0">Designation</p>
+                                <h4 class="mt-3">Florent DOKO</h4>
+                                <p class="mb-0">guide depuis un peu plus de 10 ans</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="guide-item">
                         <div class="guide-img">
-                            <div class="guide-img-efects">
-                                <img src="img/guide-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="guide-img-efects ratio ratio-1x1">
+                                <img src="img/guideur/M_Po_Gui_N_DAH.jpg"
+                                    class="img-fluid rounded-top object-fit-contain" alt="M’Po Gui N’DAH">
                             </div>
                             <div class="guide-icon rounded-pill p-2">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flamaisondubenin.com%2Fmpo-gui-ndah-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://x.com/intent/post?url=https%3A%2F%2Flamaisondubenin.com%2Fmpo-gui-ndah-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Flamaisondubenin.com%252Fmpo-gui-ndah-portrait-dun-guide-du-benin%252F"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="guide-title text-center rounded-bottom p-4">
                             <div class="guide-title-inner">
-                                <h4 class="mt-3">Full Name</h4>
-                                <p class="mb-0">Designation</p>
+                                <h4 class="mt-3">M’Po Gui N’DAH</h4>
+                                <p class="mb-0">Master en Médiation sociale</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="guide-item">
                         <div class="guide-img">
-                            <div class="guide-img-efects">
-                                <img src="img/guide-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="guide-img-efects ratio ratio-1x1">
+                                <img src="img/guideur/Justin_Fagnon_Avocètien.jpg"
+                                    class="img-fluid rounded-top object-fit-contain" alt="Justin Fagnon Avocètien">
                             </div>
                             <div class="guide-icon rounded-pill p-2">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flamaisondubenin.com%2Fjustin-fagnon-avocetien-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://x.com/intent/tweet?url=https%3A%2F%2Flamaisondubenin.com%2Fjustin-fagnon-avocetien-portrait-dun-guide-du-benin%2F"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Flamaisondubenin.com%252Fjustin-fagnon-avocetien-portrait-dun-guide-du-benin%252F"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="guide-title text-center rounded-bottom p-4">
                             <div class="guide-title-inner">
-                                <h4 class="mt-3">Full Name</h4>
-                                <p class="mb-0">Designation</p>
+                                <h4 class="mt-3">Justin Fagnon Avocètien</h4>
+                                <p class="mb-0">conducteur de barque motorisée</p>
                             </div>
                         </div>
                     </div>
