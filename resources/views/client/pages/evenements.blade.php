@@ -66,152 +66,208 @@
                 <h5 class="section-title px-3">Evenement culturels</h5>
                 <h1 class="mb-0">Rejoins Nous </h1>
             </div>
-            <div class="packages-carousel owl-carousel">
-                <div class="packages-item">
-                    <div class="packages-img">
-                        <img src="/img/evenement/évènement1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
-                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt me-2"></i>Benin</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt me-2"></i>1days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>9Person</small>
-                        </div>
-                        <div class="packages-price py-2 px-4">$349.00</div>
-                    </div>
-                    <div class="packages-content bg-light">
-                        <div class="p-4 pb-0">
-                            <h5 class="mb-0">Ouidah</h5>
-                            <small class="text-uppercase">Hotel Deals</small>
-                            <div class="mb-3">
+            <div class="row">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="/img/evenement/event2.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Cotonou</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>10/05/2025</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>2000
+                                    Personnes</small>
                             </div>
-                            <p class="mb-4">Le Festival Couleurs d’Afrique est un événement culturel béninois qui
-                                célèbre l’art et la diversité africaine à travers des expositions, spectacles et
-                                créations artistiques.</p>
+                            <div class="packages-price py-2 px-4">25000 FCFA</div>
                         </div>
-                        <div class="row bg-primary rounded-bottom mx-0">
-                            <div class="col-6 text-start px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Ouidah</h5>
+                                <p class="mb-4">Le Festival Couleurs d’Afrique est un événement culturel béninois qui
+                                    célèbre l’art et la diversité africaine à travers des expositions, spectacles et
+                                    créations artistiques.</p>
                             </div>
-                            <div class="col-6 text-end px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="packages-item">
-                    <div class="packages-img">
-                        <img src="/img/evenement/évènement2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
-                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt me-2"></i>Benin</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>89 Person</small>
-                        </div>
-                        <div class="packages-price py-2 px-4">$449.00</div>
-                    </div>
-                    <div class="packages-content bg-light">
-                        <div class="p-4 pb-0">
-                            <h5 class="mb-0">The New California</h5>
-                            <small class="text-uppercase">Hotel Deals</small>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo
-                                quia quae illum aperiam fugiat voluptatem repellat</p>
-                        </div>
-                        <div class="row bg-primary rounded-bottom mx-0">
-                            <div class="col-6 text-start px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
-                            </div>
-                            <div class="col-6 text-end px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="packages-item">
-                    <div class="packages-img">
-                        <img src="/img/evenement/évènement3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
-                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt me-2"></i>Venice - Italy</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>2 Person</small>
-                        </div>
-                        <div class="packages-price py-2 px-4">$549.00</div>
-                    </div>
-                    <div class="packages-content bg-light">
-                        <div class="p-4 pb-0">
-                            <h5 class="mb-0">Discover Japan</h5>
-                            <small class="text-uppercase">Hotel Deals</small>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="/img/evenement/vodoun5.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Ouidah</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>10/01/2026</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>Nombre
+                                    illimité</small>
                             </div>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo
-                                quia quae illum aperiam fugiat voluptatem repellat</p>
+                            <div class="packages-price py-2 px-4">Gratuit</div>
                         </div>
-                        <div class="row bg-primary rounded-bottom mx-0">
-                            <div class="col-6 text-start px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Discover Bénin</h5>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                    nemo quia quae illum aperiam fugiat voluptatem repellat</p>
                             </div>
-                            <div class="col-6 text-end px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="packages-item">
-                    <div class="packages-img">
-                        <img src="img/packages-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
-                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt me-2"></i>Thayland</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>2 Person</small>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="img/evenement/vodoun6.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Porto-Novo</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>3 days</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1000
+                                    personnes ou plus</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">3000 FCFA</div>
                         </div>
-                        <div class="packages-price py-2 px-4">$649.00</div>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Adjara party</h5>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                    nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="packages-content bg-light">
-                        <div class="p-4 pb-0">
-                            <h5 class="mb-0">Thayland Trip</h5>
-                            <small class="text-uppercase">Hotel Deals</small>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="img/evenement/vodoun6.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Porto-Novo</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>3 days</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1000
+                                    personnes ou plus</small>
                             </div>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo
-                                quia quae illum aperiam fugiat voluptatem repellat</p>
+                            <div class="packages-price py-2 px-4">3000 FCFA</div>
                         </div>
-                        <div class="row bg-primary rounded-bottom mx-0">
-                            <div class="col-6 text-start px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Adjara party</h5>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                    nemo quia quae illum aperiam fugiat voluptatem repellat</p>
                             </div>
-                            <div class="col-6 text-end px-0">
-                                <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="img/evenement/vodoun6.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Porto-Novo</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>3 days</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1000
+                                    personnes ou plus</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">3000 FCFA</div>
+                        </div>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Adjara party</h5>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                    nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="packages-item d-flex flex-column h-120 w-100">
+                        <div class="packages-img position-relative">
+                            <img src="img/evenement/vodoun6.jpg" class="img-fluid w-100 rounded-top object-fit-cover"
+                                alt="Image" style="height:250px;">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                                style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-map-marker-alt me-2"></i>Porto-Novo</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt me-2"></i>3 days</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1000
+                                    personnes ou plus</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">3000 FCFA</div>
+                        </div>
+                        <div class="packages-content bg-light flex-grow-1 d-flex flex-column">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-2">Adjara party</h5>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                    nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0 mt-auto">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">voir plus</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Participer</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Packages End -->
@@ -299,7 +355,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary text-white w-100 py-3" type="submit">Book Now</button>
+                                <button class="btn btn-primary text-white w-100 py-3" type="submit">Participer</button>
                             </div>
                         </div>
                     </form>

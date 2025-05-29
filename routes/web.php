@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\SiteTouristiqueController;
 use Illuminate\Support\Facades\Route;
 
 // Route côté client
@@ -45,3 +46,10 @@ Route::get('/log-admin/organisateur', [AdminController::class, 'adminOrganisateu
 Route::get('/log-admin/evenement', [AdminController::class, 'adminEvenement'])->name('admin.evenement');
 Route::get('/log-admin/site-touristique', [AdminController::class, 'adminSite'])->name('admin.site');
 Route::get('/log-admin/reservation', [AdminController::class, 'adminReservation'])->name('admin.reservation');
+
+
+// route client esdras
+Route::get('/historique', function () {return view('client.pages.historique');})->name('historique');
+Route::get('/detail-site-touristique', [SiteTouristiqueController::class, 'show'])->name('site.detail');
+
+// testimonial, booking, tour, gallery, guide, destination, services on effacera toutes les routes conernés
